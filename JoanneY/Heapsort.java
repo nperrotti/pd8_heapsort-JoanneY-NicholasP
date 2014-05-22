@@ -3,12 +3,15 @@
 //HW42
 //2014-05-22
 
-
 /*****************************************************
  * Heapsort 
  * || HEAP GROWTH -> | <- Sorted Region ||
+ * 1. Heapify the array to create a min heap
+ * 2. Swap min number to the end of the list 
+ * 3. Use divider as a placeholder to indicate where to place min number (gate between heapified/sorted region)
+ * 4. Print array starting from last element
  *
- * Missing last number
+ * Missing last number...
  *****************************************************/
 
 public class Heapsort {
